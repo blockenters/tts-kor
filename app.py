@@ -86,7 +86,7 @@ st.markdown("""
     <div class="highlight" style="text-align: center; margin-bottom: 2rem;">
         <h3 style="color: #1E88E5; margin-bottom: 1rem;">🤖 AI 성우가 여러분의 이야기를 들려드립니다!</h3>
         <p style="font-size: 1.1rem; line-height: 1.6; color: #424242;">
-            Facebook의 최신 AI 기술로 만든 TTS 서비스예요. 여러분의 글을 자연스러운 목소리로 읽어드립니다. 긴 글도 OK! 감정도 표현할 수 있어요! ✨
+            Facebook의 최신 AI 기술로 만든 TTS 서비스예요.
         </p>
         <div style="background-color: #E3F2FD; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
             <p style="font-size: 0.9rem; color: #1565C0;">
