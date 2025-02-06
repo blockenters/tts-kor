@@ -81,9 +81,26 @@ st.markdown("""
 # 헤더
 st.markdown('<h1 class="main-title">🎵 한국어 음성 생성기</h1>', unsafe_allow_html=True)
 
-# 소개 섹션
-with st.container():
-    st.markdown('<p class="sub-header">✨ AI가 당신의 텍스트를 자연스러운 음성으로 변환해드립니다</p>', unsafe_allow_html=True)
+# 소개 섹션 추가
+st.markdown("""
+    <div class="highlight" style="text-align: center; margin-bottom: 2rem;">
+        <h3 style="color: #1E88E5; margin-bottom: 1rem;">🤖 AI 성우가 여러분의 이야기를 들려드립니다!</h3>
+        <p style="font-size: 1.1rem; line-height: 1.6; color: #424242;">
+            Facebook의 최신 AI 기술로 만든 TTS 서비스예요.<br>
+            여러분의 글을 자연스러운 목소리로 읽어드립니다.<br>
+            긴 글도 OK! 감정도 표현할 수 있어요! ✨
+        </p>
+        <div style="background-color: #E3F2FD; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+            <p style="font-size: 0.9rem; color: #1565C0;">
+                💡 <strong>이런 용도로 사용해보세요:</strong><br>
+                📚 동화책 읽어주기<br>
+                🎯 프레젠테이션 음성 나레이션<br>
+                📱 모바일 앱 음성 안내<br>
+                ✍️ 블로그 포스팅 음성 변환
+            </p>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
 
 # 모델 로드
 @st.cache_resource
