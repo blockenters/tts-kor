@@ -89,8 +89,7 @@ st.markdown("""
             Facebook의 최신 AI 기술로 만든 TTS 서비스예요.
         </p>
         <div style="background-color: #E3F2FD; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
-            <p style="font-size: 0.9rem; color: #1565C0;">
-                💡 <strong>이런 용도로 사용해보세요:</strong><br>
+            <p style="font-size: 0.9rem; color: #1565C0;">                
                 📚 동화책 읽어주기 🎯 프레젠테이션 음성 나레이션 ✍️ 블로그 포스팅 음성 변환
             </p>
         </div>
